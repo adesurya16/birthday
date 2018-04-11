@@ -989,6 +989,22 @@ audio {
 	animation: bannar_come linear 6s;
 	transform:translate(0px,0px);
 }
+.bel{
+	max-width: 100%;
+	-webkit-transform:translate(0px,-500px);
+	-moz-transform:translate(0px,-500px);
+	-o-transform:translate(0px,-500px);
+	-ms-transform:translate(0px,-500px);
+	transform:translate(0px,-500px);
+}
+
+.bel-come{
+	-webkit-transform:translate(0px,0px);
+	-moz-transform:translate(0px,0px);
+	-o-transform:translate(0px,0px);
+	-ms-transform:translate(0px,0px);
+	transform:translate(0px,0px);
+}
 @-webkit-keyframes bannar_come {
 	0%{
 		-webkit-transform:translate(0px,-1000px);
@@ -1056,7 +1072,7 @@ audio {
 	100% {
 		-ms-transform:translate(0px,0px);
 	}
-}o
+}
 @keyframes bannar_come {
 	0%{
 		transform:translate(0px,-1000px);
@@ -1260,20 +1276,17 @@ audio {
 	bottom: 0;
 	padding:10px 0px 10px 0px;
 }
-#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story {
+#play, #bannar_coming, #balloons_flying,#wish_message,#story {
 	display: none;
 }
 
-.cake-cover {
-	margin-top: 50px;
-}
 .message {
-	margin-top: 200px;
+	margin-top: 10px;
 	display: none;
 }
 .message p {
 	font-family: 'Signika', sans-serif;
-	font-size: 30px;
+	font-size: 40px;
 	text-transform: uppercase;
 	color: #C4515C;
 	text-shadow: 2px 2px 2px #FFF;
