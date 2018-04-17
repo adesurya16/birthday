@@ -13,3 +13,11 @@ Ayush Sharma Arya College Of Engineering & IT, Jaipur India.
 contact details: ayush.aceit@gmail.com
 
 IRC: ayushpix
+
+Edited By : Ade
+
+URL : http://giftforbella.herokuapp.com/
+
+Bandung Institute Of Technology
+
+Bandung, Indonesia
